@@ -1,0 +1,2 @@
+ALTER TABLE vp_users
+  ADD COLUMN IF NOT EXISTS role TEXT NOT NULL DEFAULT 'volunteer';
